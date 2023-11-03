@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:paint/pages/circle.dart';
 import 'package:paint/pages/line.dart';
+import 'package:paint/pages/rectangle.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -13,11 +15,16 @@ class _HomePageState extends State<HomePage>  with TickerProviderStateMixin {
 
   List<String> tabLabels = [
     'Line',
+    'Circle',
+    'Rectangle',
     
   ];
 
   List<Widget> tabPages = [
     const LinePage(),
+    const CirclePage(),
+    const RectanglePage(),
+    
     
   ];
 
