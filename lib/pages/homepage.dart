@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:paint/pages/circle.dart';
 import 'package:paint/pages/line.dart';
 import 'package:paint/pages/rectangle.dart';
+import 'package:paint/pages/triangle.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -17,6 +18,7 @@ class _HomePageState extends State<HomePage>  with TickerProviderStateMixin {
     'Line',
     'Circle',
     'Rectangle',
+    'Triangle',
     
   ];
 
@@ -24,6 +26,7 @@ class _HomePageState extends State<HomePage>  with TickerProviderStateMixin {
     const LinePage(),
     const CirclePage(),
     const RectanglePage(),
+    const TrianglePage(),
     
     
   ];
